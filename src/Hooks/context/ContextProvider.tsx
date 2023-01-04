@@ -2,6 +2,7 @@ import { FC, useContext, useState } from 'react';
 import React from 'react';
 
 const ThemeContext = React.createContext(true); //create ThemeContext
+
 const ThemeContextUpdate = React.createContext(() => { }); //create ThemeContextUpdate
 
 //Enable Custom Context Provider Component
@@ -24,9 +25,7 @@ const ContextProvider: FC<Props> = ({ children }) => {
 
     //toggle theme event handler
     const toggleTheme = () => {
-        setTheme((prevTheme) => {
-            return !prevTheme;
-        })
+        setTheme((prevTheme) => !prevTheme)
     }
 
     return (
@@ -37,4 +36,5 @@ const ContextProvider: FC<Props> = ({ children }) => {
         </ThemeContext.Provider>
     );
 }
+
 export default ContextProvider;

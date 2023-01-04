@@ -7,14 +7,15 @@ const FunctionContext: FC = () => {
 
     //toggle theme event logic
     const themeStyles = {
-        backgroundColor: Theme ? 'black' : 'white',
-        color: Theme ? 'white' : 'black',
+        backgroundColor: Theme ? 'pink' : 'red',
+        color: Theme ? 'blue' : 'green',
         margin: '2rem',
         padding: '2rem',
     };
 
     return (
         <>
+            <h1>Context</h1>
             <button onClick={toggleTheme}>Toggle Theme</button>
             <div style={themeStyles}>Function Theme</div>
         </>

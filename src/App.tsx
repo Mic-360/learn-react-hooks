@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Context from './Hooks/context/Context';
+import Context from './Hooks/Context';
 import Effect from './Hooks/Effect';
 import Ref from './Hooks/Ref';
 import State from './Hooks/State';
