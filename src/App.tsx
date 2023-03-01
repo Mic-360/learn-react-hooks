@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.css';
+import React, { FC } from 'react';
 import Context from './Hooks/Context';
 import Effect from './Hooks/Effect';
 import Memo from './Hooks/Memo';
 import Ref from './Hooks/Ref';
 import State from './Hooks/State';
+import './App.css';
 
-const App: React.FC = () => {
+const App: FC = () => {
   return (
     <div className="App">
       <State /> {/* useState hook */}

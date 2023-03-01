@@ -53,7 +53,7 @@ const Effect: FC = () => {
     fetcher
   );
 
-  console.log(data);
+  // console.log(data); //?: To check data fetch
 
   return (
     <div id='effect'>

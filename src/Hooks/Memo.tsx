@@ -63,7 +63,7 @@ const Memo: FC = () => {
 export default Memo;
 
 function slowFunction(num: number) {
-  console.log('Calling Slow Function');
+  // console.log('Calling Slow Function'); //? To check if it's called
 
   for (let i = 0; i <= 100000000; i++) {}
   return num * 2;
