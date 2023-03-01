@@ -11,7 +11,7 @@ const Ref: FC = () => {
   }
   return (
     <div id='Ref'>
-      <h1>useRef</h1>
+      <h1>Ref</h1>
       <input
         ref={inputRef}
         value={name}

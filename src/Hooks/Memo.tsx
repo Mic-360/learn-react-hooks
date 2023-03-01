@@ -37,6 +37,7 @@ const Memo: FC = () => {
       id='memo'
       style={themeStyles}
     >
+      <h1>Memo</h1>
       <div className='buttons'>
         <button
           style={buttonStyles}
